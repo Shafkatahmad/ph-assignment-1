@@ -224,3 +224,48 @@ body {
   width: 40%;
   margin-left: 180px;
 }
+ 
+/* my-inspiration styles */
+.my-inspiration {
+  width: 1140px;
+  height: 775px;
+  margin: 0 auto;
+  margin-bottom: 150px;
+}
+.my-inspiration-container {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  align-content: center;
+  margin-right: 80px;
+}
+.my-inspiration-text {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.inspiration-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.inspiration-description {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+}
+.my-inspiration-iframe {
+  width: 100%;
+  padding: 32px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
