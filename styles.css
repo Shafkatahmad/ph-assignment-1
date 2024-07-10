@@ -52,7 +52,7 @@ body {
   opacity: 0.7;
   margin-bottom: 30px;
 }
-.banner-button {
+.contact {
   color: white;
   font-size: 20px;
   font-weight: 600;
@@ -64,6 +64,7 @@ body {
   border: none;
   background: rgb(13, 19, 33);
   border-radius: 8px;
+  text-decoration: none;
 }
 /* why-section styles */
 .why {
@@ -428,4 +429,62 @@ body {
   text-align: left;
   opacity: 0.7;
   margin-bottom: 24px;
+}
+
+/* footer styles */
+.footer {
+  width: 1140px;
+  height: 313px;
+  border-radius: 16px;
+  background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+  border: 2px solid black;
+  margin: 0 auto;
+  background: linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url(./assets/handshake.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom: 80px;
+}
+.footer-div {
+  width: 1044px;
+  height: 185px;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+.footer-h3 {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.fotter-p {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 24px;
+}
+.footer-input {
+  height: 57px;
+  width: 548px;
+  padding-left: 20px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  margin-left: 170px;
+  font-family: Azeret Mono;
+}
+.footer-btn {
+  height: 57px;
+  width: 120px;
+  background: rgb(255, 255, 255);
+  border-radius: 8px;
 }
